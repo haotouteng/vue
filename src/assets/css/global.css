@@ -1,0 +1,22 @@
+.mr {
+  margin-left: auto;
+  margin-right: auto;
+}
+.fl {
+  float: left;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+::-webkit-input-placeholder {color: #000; }
+::-moz-placeholder { color: #000;; } /* firefox 19+ */
+:-ms-input-placeholder { color: #000;; } /* ie */
+input:-moz-placeholder { color: #000;; }
+body {
+  font-family: 微软雅黑;
+}
